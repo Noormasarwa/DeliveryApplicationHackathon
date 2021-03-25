@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# <p align="center"><img src="https://i.pinimg.com/474x/36/b6/fa/36b6fa8541cd449f17a5e4a5cd9d9db7.jpg" width="300"> </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Delivery Application
+This platform will give the opportunity to shop owners to add their deliveries to our website and allow customers to get their products delivered to them in the fastest and most efficient route .
 
-## Available Scripts
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612015530/Screen_Shot_2021-01-30_at_4.04.50_PM_hpgiiy.png" width="300"> </p>
 
-In the project directory, you can run:
+## [Try The App](https://delivery-worker.herokuapp.com/)
+for Dummy  use insert :
+userName :aubida@gmail.com
+password :12345678
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to Use
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Register as new user or Login with your Facebook account.
+- Navigate the map and see if there is a post that suits you.
+- filter the map to view only cookers or eaters by using the to buttons on the bottom.
+- You can filter the posts with more categories by clicking the filter icon.
+- Make a new post by clicking the + button and fill the form.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## To Run on localhost
 
-### `npm run build`
+1. uncomment `development` section in `server/Server.js`
+2. run in separate terminals:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+node server/Server.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm run-script develop
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### Tools and Libraries
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Client Side - React with Mobx, Material UI, axios
+- Server - NodeJs With Express, NodeMailer, mongoose
+- DataBase - MongoDb on Atlas
+- External Services- Leaflet API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+### System design architecture (rough sketch)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612014957/Arch_iorqoz.png" width="400"> </p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+### 🚀Future Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Develop our Costumer and Shop owners version of the platform 
+- Assigning orders automatically with close locations that enables the system to draw the routes with less distance and time,  which means more profit and less cost. 
+- Improve our push notification system
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612015114/2_mgkmjr.png" width="300"> </p>
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612015108/4_ftbpap.png" width="300"> </p>
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612015108/1_lggfng.png" width="300"> </p>
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612015106/3_tt5jca.png" width="300"> </p>
+## <p align="center"><img src="https://res.cloudinary.com/du17udtpd/image/upload/v1612015105/5_gcfpqh.png" width="300"> </p>
